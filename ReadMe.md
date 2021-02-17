@@ -5,6 +5,16 @@ Prosty skrypt python-a pilnujący poprawności adresów w changesetach zakończo
 > W aktualnej wersji nie zadziała po uruchomieniu!  
 > Do prawidłowego działania potrzebuje bazy danych PostGIS utworzonej przez osm2pgsql, replikującej dane z OSM oraz posiadającej kolumny wyszczególnione w [funkcjach](functions.sql) 
 > Jeśli ma działać jako niezależna aplikacja konieczne będzie przerobienie go tak, aby pobierał dane inicjalne z OsmAPI lub OverpassAPI
+ 
+**Absolutnie** i **pod żadnym pozorem**, nawet pod groźbą **śmierci w męczarniach czy trwałego kalectwa** 
+
+**!!! NIE WOLNO !!!** 
+
+testować tego oprogramowania na produkcyjnej bazie OSM. Do testów i developmentu służy środowisko developerskie.
+
+Wytyczne: https://wiki.openstreetmap.org/wiki/API_v0.6#URL_.2B_authentication
+Adres API testowego: https://master.apis.dev.openstreetmap.org
+
 
 ## Zasada działania
 
